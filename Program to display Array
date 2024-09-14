@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() 
+{
+ int a[5],i;
+ for(i=0;i<5;i++)
+ {
+     printf("\n enter number");
+     scanf("%d",&a[i]);
+ }
+ printf("\narray elements are");
+ for(i=0;i<5;i++)
+{
+    printf("\n%d",a[i]);
+}
+    return 0;
+}
